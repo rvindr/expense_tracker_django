@@ -17,13 +17,25 @@ git clone https://github.com/rvindr/expense_tracker_django.git
 ```
 
 ### 2. Create and Activate Virtual Environment
-
-Create a virtual environment and activate it:
-
+#### On Windows
+1.Create the Virtual Environment (if not already created):
 ```bash
 python -m venv env
+```
+2.Activate the Virtual Environment:
+```bash
+.\env\Scripts\activate
+```
+#### On macOS
+1.Create the Virtual Environment (if not already created):
+```bash
+python3 -m venv env
+```
+2.Activate the Virtual Environment:
+```bash
 source env/bin/activate
 ```
+
 ### 3. Install Dependencies
 Install the required packages:
 ```bash
@@ -46,9 +58,10 @@ Access the admin panel at http://127.0.0.1:8000/admin/
 
 ### Screenshots
 Here are some screenshots of the application:
-<img width="1440" alt="Screenshot 2024-07-25 at 5 25 31 PM" src="https://github.com/user-attachments/assets/d4fea40b-3123-46bc-afff-91ceb4c9525b">
-<img width="1440" alt="Screenshot 2024-07-25 at 5 25 42 PM" src="https://github.com/user-attachments/assets/09c83c6c-445c-47b9-b34c-2a98ff04fc79">
-<img width="1440" alt="Screenshot 2024-07-25 at 5 26 01 PM" src="https://github.com/user-attachments/assets/acde697e-c241-476e-af51-123f7c3c10e4">
+<img width="1440" alt="Screenshot 2024-07-25 at 5 53 32 PM" src="https://github.com/user-attachments/assets/233a0104-d4a2-428e-87b9-35e85dbd2caf">
+<img width="1440" alt="Screenshot 2024-07-25 at 5 54 03 PM" src="https://github.com/user-attachments/assets/96e10897-59da-4d34-b574-06d7b42e1659">
+<img width="1440" alt="Screenshot 2024-07-25 at 5 54 51 PM" src="https://github.com/user-attachments/assets/72103f99-8a90-4e06-8fbe-92a43a94244b">
+
 
 
 ### Contributing
